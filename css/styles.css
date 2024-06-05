@@ -716,7 +716,7 @@ gap: 8px;
 .privacy-appruve:checked+.checkbox-privacy span {
     background-color: #404BBF;
     border: none;
-    fill: #ffffff;
+    fill: #F4F4FD;
 }
 
 .policy {
@@ -744,8 +744,8 @@ gap: 8px;
 border-color: #404BBF;
 }
 
-.modal-input:focus+.person-icon {
-    fill: #404BBF;
+.modal-input:focus + .person-icon {
+    fill: #4D5AE5;
 }
 
 .subscribe {
