@@ -505,6 +505,7 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
+    width: 264px;
     
 }
 
@@ -773,6 +774,7 @@ border-color: #404BBF;
 border: 1px solid rgba(255, 255, 255, 1);
 border-radius: 4px;
 background-color: transparent;
+
 }
 
 .subscribe-input::placeholder {
@@ -789,9 +791,18 @@ background-color: transparent;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     color: #FFFFFF;
-    
-    
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-send {
+    margin-left: 16px;
 }
