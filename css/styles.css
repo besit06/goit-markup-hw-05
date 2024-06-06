@@ -745,11 +745,11 @@ gap: 8px;
 }
 
 .modal-input:focus {
-border-color: #404BBF;
+border-color: #4D5AE5;
 }
 
 .modal-input:focus + .person-icon {
-    fill: #404BBF;
+    fill: #4D5AE5;
 }
 
 .subscribe {
